@@ -15,19 +15,19 @@ let colors_name = "meta5"
 
 " Vim >= 7.0 specific colors
 if version >= 700
-  hi CursorLine   guibg=#262626 gui=NONE ctermbg=234 cterm=NONE
+  hi CursorLine   guibg=#262626 gui=NONE ctermbg=235 cterm=NONE
   hi CursorColumn guifg=#ffffff guibg=#303030 ctermbg=238
   hi iCursor      guifg=#000000 guibg=#d0d0d0 ctermfg=0 ctermbg=252
-  hi Incsearch    guifg=#ff00ff guibg=NONE gui=underline ctermfg=201 ctermbg=NONE cterm=underline
+  hi Incsearch    guifg=#ffff00 guibg=NONE gui=underline ctermfg=226 ctermbg=NONE cterm=underline
   hi MatchParen   guifg=#ffaf00 guibg=NONE gui=bold ctermfg=214 ctermbg=NONE cterm=bold
   hi Pmenu        guifg=#eeeeee guibg=#444444 ctermfg=255 ctermbg=238
   hi PmenuSel     guifg=#000000 guibg=#df8700 ctermfg=0 ctermbg=172
-  hi Search       guifg=#ff00ff guibg=NONE gui=underline ctermfg=201 ctermbg=NONE cterm=underline
+  hi Search       guifg=#ffff00 guibg=NONE gui=underline ctermfg=226 ctermbg=NONE cterm=underline
 endif
 
 " General colors
-hi Cursor         guifg=#000000 guibg=#d0d0d0 ctermfg=0 ctermbg=252
-hi CursorLineNr   guifg=#ffff00 guibg=NONE ctermfg=11 ctermbg=NONE
+hi Cursor         guifg=#000000 guibg=#d0d0d0 gui=underline ctermfg=0 ctermbg=252 
+hi CursorLineNr   guifg=#ffff00 guibg=NONE ctermfg=226 ctermbg=NONE
 hi ColorColumn    guibg=#000080 ctermbg=4
 hi Directory      guifg=#00ffff guibg=NONE ctermfg=14 ctermbg=NONE
 hi ErrorMsg       guifg=#ffffff guibg=#ff0000 gui=NONE ctermfg=15 ctermbg=9 cterm=NONE
