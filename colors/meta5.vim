@@ -18,11 +18,12 @@ if version >= 700
   hi CursorLine   guibg=#262626 gui=NONE ctermbg=235 cterm=NONE
   hi CursorColumn guifg=#ffffff guibg=#303030 ctermbg=238
   hi iCursor      guifg=#000000 guibg=#d0d0d0 ctermfg=0 ctermbg=252
-  hi Incsearch    guifg=#ffff00 guibg=NONE gui=underline ctermfg=226 ctermbg=NONE cterm=underline
+  hi Incsearch    guifg=#ff0000 guibg=NONE gui=underline ctermfg=9 ctermbg=NONE cterm=underline
   hi MatchParen   guifg=#ffaf00 guibg=NONE gui=bold ctermfg=214 ctermbg=NONE cterm=bold
   hi Pmenu        guifg=#eeeeee guibg=#444444 ctermfg=255 ctermbg=238
   hi PmenuSel     guifg=#000000 guibg=#df8700 ctermfg=0 ctermbg=172
-  hi Search       guifg=#ffff00 guibg=NONE gui=underline ctermfg=226 ctermbg=NONE cterm=underline
+  hi Search    guifg=#ff0000 guibg=NONE gui=underline ctermfg=9 ctermbg=NONE cterm=underline
+"  hi Search       guifg=#5fffff guibg=#1c1c1c gui=underline ctermfg=87 ctermbg=234 cterm=underline
 endif
 
 " General colors

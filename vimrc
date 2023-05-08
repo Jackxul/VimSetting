@@ -8,3 +8,4 @@ set cursorline	"Eable highlight the current line
 hi clear CursorLine
 hi CursorLine gui=underline guifg=#ffaf00 cterm=underline ctermfg=214
 
+
